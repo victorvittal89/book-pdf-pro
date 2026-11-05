@@ -1,0 +1,24 @@
+BOOK PDF PRO — PROTÓTIPO ANDROID/PWA
+
+O que já funciona:
+- Abrir PDF local pelo seletor de arquivos.
+- Visualização de página simples ou duas páginas.
+- Navegação anterior/próxima e salto para página digitada.
+- Zoom e tela cheia.
+- Animação visual de virada e efeito sonoro de papel gerado no aparelho.
+- Interface responsiva para celular.
+- Manifest e service worker para instalação como PWA.
+
+Como testar no Android:
+1. Hospede esta pasta em um site com HTTPS (ou use um servidor local).
+2. Abra o endereço no Chrome do Android.
+3. Menu ⋮ > Instalar aplicativo ou Adicionar à tela inicial.
+
+Limitações importantes:
+- Este é um protótipo funcional de leitura, não um clone do Foxit.
+- O motor PDF.js é carregado por CDN; a primeira abertura exige internet.
+- Não inclui ainda edição/alteração do conteúdo PDF, OCR, assinatura digital,
+  formulários avançados, união/divisão ou proteção por senha.
+- Para gerar APK nativo e distribuir, é necessário configurar/buildar projeto
+  Android (Android Studio/Gradle) e testar em dispositivos reais.
+- O som é sintetizado localmente para imitar o ruído de papel; não é uma gravação.

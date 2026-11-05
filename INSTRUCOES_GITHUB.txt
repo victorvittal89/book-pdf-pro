@@ -1,0 +1,16 @@
+GERAR O APK PELO GITHUB
+
+1. Crie um repositório chamado book-pdf-pro.
+2. Na página do repositório, toque em Add file > Upload files.
+3. Extraia o ZIP e envie todo o conteúdo, inclusive a pasta .github.
+4. Faça Commit changes na branch main.
+5. Abra a aba Actions e selecione Build Book PDF Pro APK.
+6. Aguarde a execução terminar com marca verde.
+7. Abra a execução e baixe o Artifact BookPDFPro-debug-apk.
+8. Extraia o ZIP do artifact; o arquivo app-debug.apk é o instalador.
+9. Toque no APK no Android e autorize a instalação se solicitado.
+
+Este é um APK debug para instalação pessoal, não uma versão Play Store.
+O app ainda é um protótipo de leitura: recursos avançados como OCR,
+edição avançada, assinatura digital e formulários ainda não estão implementados.
+O motor PDF.js é carregado de CDN e precisa de internet.

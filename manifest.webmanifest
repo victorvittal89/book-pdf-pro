@@ -1,0 +1,6 @@
+{
+ "name":"Book PDF Pro","short_name":"Book PDF","start_url":"./index.html",
+ "display":"standalone","background_color":"#eef2f7","theme_color":"#172b4d",
+ "description":"Leitor PDF com virada de páginas estilo livro e som de papel.",
+ "icons":[]
+}

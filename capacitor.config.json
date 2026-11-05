@@ -1,0 +1,6 @@
+{
+  "appId": "com.bookpdfpro.reader",
+  "appName": "Book PDF Pro",
+  "webDir": "www",
+  "bundledWebRuntime": false
+}
